@@ -37,7 +37,7 @@ Follows a service–controller pattern with JWT authentication and per-request M
 - **MongoDB Connection**: Connection string and IP whitelisting are handled externally via **MongoDB Atlas**.
 
 ---
-## ⚙ Immediate Improvements
+## ⚙ Key Improvements to Make Your Code Production-Ready
 - Payload validation using **Joi** before processing requests.  
 - CORS config to only allow whitelisted origins from `.env`.  
 - Replace `console.log` with **Winston** for leveled logging & timestamps.  
